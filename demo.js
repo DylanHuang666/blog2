@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-var fs = require('fs')
+var fs = require('fs'ï¼‰
 
-var dirName = process.argv[2] // Äã´«µÄ²ÎÊýÊÇ´ÓµÚ 2 ¸ö¿ªÊ¼µÄ
+var dirName = process.argv[2] // ï¿½ã´«ï¿½Ä²ï¿½ï¿½ï¿½ï¿½Ç´Óµï¿½ 2 ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½
 
 fs.mkdirSync("./" + dirName) // mkdir $1
 process.chdir("./" + dirName) // cd $1
